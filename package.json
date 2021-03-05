@@ -8,8 +8,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server/server.js",
-    "dev": "nodemon server/server.js"
+    "start": "node Server/server.js",
+    "dev": "nodemon Server/server.js"
   },
   "keywords": [],
   "author": "Yaroslav and Yhonatan",
