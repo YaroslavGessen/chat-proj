@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>SuperChat</title>
+</head>
+<body>
+
+<form action="chat.html" method="get" class="auth">
+    <div class="card">
+        <div class="card-content">
+            <h4 class="card-title">Welcome to Chat!</h4>
+            <div class="input-field">
+                <input type="text"
+                       id="name"
+                       class="validate"
+                       name="name"
+                       required>
+                <label for="name">Name:</label>
+            </div>
+            <div class="input-field">
+                <input type="text"
+                       id="room"
+                       class="validate"
+                       name="room"
+                       required>
+                <label for="name">Room:</label>
+            </div>
+    <div class="card-action">
+        <button type="submit" class="waves-effect waves-teal btn-flat">Enter</button>
+    </div>
+        </div>
+    </div>
+</form>
+<script src="socket.io/socket.io.js"></script>
+</body>
+<footer class="page-footer #1de9b6 teal accent-3">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">Chat by Yaroslav and Yhonatan</h5>
+                <p class="grey-text text-lighten-4">Build on express js</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                    <li><a class="grey-text text-lighten-3" href="#!">GitHub</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            © 2021 Copyright Text
+            <a class="grey-text text-lighten-4 right" href="#!">Readme</a>
+        </div>
+    </div>
+</footer>
+</html>
